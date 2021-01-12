@@ -13,6 +13,7 @@ dash-table==4.11.1
 Fiona==1.8.18
 Flask==1.1.2
 Flask-Compress==1.8.0
+gunicorn==0.14.2
 future==0.18.2
 geojson==2.5.0
 geopandas==0.8.1
