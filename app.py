@@ -9,11 +9,12 @@ Created on Wed Jan  6 08:44:16 2021
 
 import dash
 import dash_bootstrap_components as dbc
+import flask
 
+server = flask.Flask(__name__)
 #external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],
+app = dash.Dash(__name__, server=server, external_stylesheets=[dbc.themes.BOOTSTRAP],
                 suppress_callback_exceptions=True,
                 meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, inittial-sacle=1.0'}])
 
-server = app.server
