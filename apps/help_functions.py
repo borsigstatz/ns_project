@@ -227,6 +227,8 @@ def create_figure(df, var:str, **kwargs):
         data['names']=pd.Series(val_lab)
         
         data.columns=['count','prc', 'names']
+        #Sort
+        data.sort_values(by=['names'], inplace=True)
         #print(data)
         #print(val_lab[var])
         #Absolute Counts
