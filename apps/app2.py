@@ -187,9 +187,9 @@ layout = html.Div(
                     ],
                     searchable=True,
                     placeholder='Select..',
-                    style=dict(
-                        width='50%',
-                        )
+                    style={
+                        'width':'49%',
+                        }
                     ),
                 html.P(id="map_ref", className="mt-3"),
                 ]),
