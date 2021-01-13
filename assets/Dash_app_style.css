@@ -647,7 +647,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     top: 0;
     font-weight: 500;
     font-size: 14px;
-    color: #FFFFFF;
+    background: white;
   }
   
 /*
@@ -659,7 +659,8 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
  */
 
   .VirtualizedSelectFocusedOption {
-    background-color: rgb(50,50,50);
+    background: rgb(50,50,50);
+    color: white;
   }
   .VirtualizedSelectOption {
     color: white;
