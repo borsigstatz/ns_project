@@ -619,7 +619,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   
   .Select–single>.Select-control .Select-value,.Select-placeholder{
-    color: #FFFFFF;
+    color: rgb(250,250,250);
     background: #32383e;
     background-image: linear-gradient(#484e55, #3A3F44 60%, #313539);
     left: 0;
@@ -657,13 +657,14 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     font-size: 14px;
   }
  */
-
+  /*Change background of Select in Drodown */
   .VirtualizedSelectFocusedOption {
-    background: rgb(50,50,50);
-    color: white;
+    background: rgb(50, 50, 50);
   }
+
+  /*Change color of Selection text in Dropdown*/
   .VirtualizedSelectOption {
-    color: white;
+    color: rgb(250, 250, 250);
   }
  
 
